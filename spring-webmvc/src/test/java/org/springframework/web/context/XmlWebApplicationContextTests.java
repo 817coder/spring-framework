@@ -48,6 +48,7 @@ public class XmlWebApplicationContextTests extends AbstractApplicationContextTes
 
 	private ConfigurableWebApplicationContext root;
 
+	// 调试方法
 	@Override
 	protected ConfigurableApplicationContext createContext() throws Exception {
 		InitAndIB.constructed = false;
