@@ -21,6 +21,7 @@ include "spring-context"
 include "spring-context-support"
 include "spring-context-indexer"
 include "spring-core"
+include "spring-learn"
 include "kotlin-coroutines"
 project(':kotlin-coroutines').projectDir = file('spring-core/kotlin-coroutines')
 include "spring-expression"
